@@ -34,5 +34,22 @@ int main(){
             }
         cout<<endl;
     }
+
+    cout<<endl;
+
+    int rows,i=1,currentNumber=1,j;
+    cout<<"Enter the number of rows :";
+    cin>>rows;
+    while(i<=rows){
+        j=1;
+        while(j<=i){
+            cout<<currentNumber<<" ";
+            currentNumber++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+
 }
 

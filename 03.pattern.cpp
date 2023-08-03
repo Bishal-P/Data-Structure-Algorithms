@@ -3,7 +3,6 @@ using namespace std;
 
 int main(){
     int row=5,column=4;
-
     for (int i=0;i<row;i++){
         for(int j=0;j<column;j++){
             if(j==0 || j==column-1){

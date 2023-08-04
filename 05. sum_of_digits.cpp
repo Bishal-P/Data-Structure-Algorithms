@@ -13,4 +13,5 @@ int main(){
         n/=10;
     }
     cout<<"The difference of product and sum is :"<<(product-sum)<<endl;
+    return 0;
 }

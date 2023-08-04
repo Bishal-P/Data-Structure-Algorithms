@@ -24,6 +24,5 @@ int main(){
         i++;
     }
     cout<<"Using Another method :"<<bin<<endl;
-
-
+    return 0;
 }

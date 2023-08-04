@@ -11,7 +11,6 @@ int main(){
         sum+=rem;
         product*=rem;
         n/=10;
-
     }
     cout<<"The difference of product and sum is :"<<(product-sum)<<endl;
 }

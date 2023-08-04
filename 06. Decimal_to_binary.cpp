@@ -4,8 +4,7 @@
 using namespace std;
 
 int main(){
-    int num=10,i=0,num2=10;
-    int bin=0;
+    int num=10,i=0,num2=10,bin=0;
     while(num>0){
         int rem=num%2;
         bin=rem*pow(10,i)+bin;

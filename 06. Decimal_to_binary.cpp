@@ -14,6 +14,8 @@ int main(){
     cout<<"The binary is :"<<bin<<endl;
 
     //Using another method
+
+    
     bin=0;
     i=0;
     while(num2!=0){

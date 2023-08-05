@@ -15,7 +15,6 @@ int main(){
 
     //Using another method
 
-    
     bin=0;
     i=0;
     while(num2!=0){

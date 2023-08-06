@@ -25,4 +25,5 @@ int main(){
     }
     cout<<"Using Another method :"<<bin<<endl;
     return 0;
+    
 }

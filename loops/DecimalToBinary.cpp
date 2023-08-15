@@ -11,5 +11,6 @@ int main(){
         binary=rem*pow(10,i)+binary;
         num=num/2;
     }
+    
     cout<<"The binay number is "<<binary<<endl;
 }

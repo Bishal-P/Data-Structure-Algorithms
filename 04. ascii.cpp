@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int main(){
      int ch;
      cout<<"Enter the character :";

@@ -18,6 +18,5 @@ int main(){
      else{
         cout<<"The character is a special character\n";
      }
-     return 0;
-     
+     return 0;  
 }

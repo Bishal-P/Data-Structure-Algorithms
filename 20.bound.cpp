@@ -13,7 +13,7 @@ int leftBound(int arr[],int size,int key){
         if(arr[mid]>key){
             end=mid-1;
         }
-        else{
+        else if(key>arr[mid]){
             start=mid+1;
         }
     }
@@ -28,12 +28,12 @@ int rightBound(int arr[],int size,int key){
         int mid=start+(end-start)/2;
         if(arr[mid]==key){
             ans=mid;
-            end=mid+1;
+            start=mid+1;
         }
         if(arr[mid]>key){
             end=mid-1;
         }
-        else{
+        else if(key>arr[mid]){
             start=mid+1;
         }
     }

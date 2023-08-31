@@ -3,9 +3,6 @@ using namespace std;
 
 
 void smallLarge(int arr[],int len,int *maxMin){
-
-    // int len;
-    // len=sizeof(arr)/sizeof(arr[0]);
     int max,min;
     if(len==1){
         max=min=arr[0];

@@ -52,6 +52,5 @@ int main(){
     // cout<<"The size is :"<<len<<endl;
     smallLarge(arr,len,maxMin);
     cout<<"The max element is :"<<maxMin[0]<<endl;
-    cout<<"The min element is "<<maxMin[1]<<endl;
-    
+    cout<<"The min element is "<<maxMin[1]<<endl;   
 }

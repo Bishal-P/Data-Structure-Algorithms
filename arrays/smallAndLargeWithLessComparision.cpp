@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 void smallLarge(int arr[],int len,int *maxMin){
     int max,min;
     if(len==1){

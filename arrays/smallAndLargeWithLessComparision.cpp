@@ -19,7 +19,8 @@ void smallLarge(int arr[],int len,int *maxMin){
         if(len%2==0){
             oddEven=2;
         }
-        for(int i=oddEven;i<len;i=i+2){
+        for(int i=oddEven;i<len;i=i+2)
+        {
             cout<<arr[i]<<" "<<arr[i+1]<<endl;
             if(arr[i]>arr[i+1]){
                 if(arr[i]>max){

@@ -45,8 +45,6 @@ void smallLarge(int arr[],int len,int *maxMin){
     }
     maxMin[0]=max;
     maxMin[1]=min;
-    
-
 }
 
 

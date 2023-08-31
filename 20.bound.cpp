@@ -20,7 +20,6 @@ int leftBound(int arr[],int size,int key){
     return ans;
 }
 
-
 int rightBound(int arr[],int size,int key){
     int start=0,end=size-1;
     int ans=-1;

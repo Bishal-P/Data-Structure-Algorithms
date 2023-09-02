@@ -1,7 +1,6 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-
 int main()
 {
     signed int num, len;

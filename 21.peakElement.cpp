@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 int main(){
     int arr[4]={0,2,5,1};
     int start=0,end=3;

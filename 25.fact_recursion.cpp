@@ -13,3 +13,5 @@ int fact(int num){
 int main(){
     cout<<fact(5);
 }
+
+

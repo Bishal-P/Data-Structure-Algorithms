@@ -1,4 +1,5 @@
 #include<iostream>
+// #include<string.h>
 
 #include<math.h>
 
@@ -20,6 +21,7 @@ bool prime(int num){
 int main(){
     int num;
     cin>>num;
-    cout<<prime(num);
+    string value=prime(num)?"Prime":"Not Prime";
+    cout<<"The number is :"<<value;
     return 0;
 }
